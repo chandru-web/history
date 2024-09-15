@@ -1,0 +1,87 @@
+.list-item {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+.history-item-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.time-accessed {
+  color: #000000;
+  font-weight: 400;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.logo-app-domain-container {
+  display: flex;
+  align-items: center;
+}
+
+.apps-logo {
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+}
+
+.title {
+  margin-right: 10px;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.domain-url {
+  margin-right: 20px;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-logo {
+  width: 20px;
+}
+@media (max-width: 768px) {
+  .list-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .time-accessed {
+    width: auto;
+    margin-bottom: 5px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .apps-logo {
+    width: 30px;
+  }
+
+  .title {
+    font-size: 14px;
+  }
+
+  .domain-url {
+    font-size: 12px;
+  }
+
+  .delete-logo {
+    width: 16px;
+  }
+}
